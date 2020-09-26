@@ -13,7 +13,7 @@ p{
 }
   img{
     max-width: 500px;
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
 }
 </style>
 
