@@ -1,6 +1,7 @@
 <script lang="ts">
   import Weather from "./Weather.svelte";
   import About from "./About.svelte";
+  import Footer from './Footer.svelte'
 </script>
 
 <style>
@@ -24,4 +25,5 @@
   <div class="container">
     <About />
   </div>
+  <Footer/>
 </main>
