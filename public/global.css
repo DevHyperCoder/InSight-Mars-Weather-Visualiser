@@ -11,6 +11,9 @@
 }
 
 html,body{
-	background-color: var(--bg-color);
 	color: var(--primary-color);
 }
+
+body{
+    background-image: url('/images/mars.jpg');
+  }
