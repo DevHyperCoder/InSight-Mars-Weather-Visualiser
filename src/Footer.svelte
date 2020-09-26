@@ -12,33 +12,29 @@
   #copy {
     margin-top: 0.5rem;
   }
-  #copy small {
+  .fl-r {
     float: right;
   }
-  #copy p {
+  .fl-l {
     float: left;
-  }
-  #link p {
-    float: left;
-  }
-  #link a {
-    float: right;
   }
 </style>
 
 <template>
   <footer>
     <div id="link">
-      <p>
-        Data taken from <a href="https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0"> NASA
-          API </a>
-      </p>
-      <a href="https://github.com/DevHyperCoder/InSight-Mars-Weather-Visualiser">Want to see the code? (GitHub)</a>
+      <a class='fl-l'
+        href="https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0">
+        Data taken from NASA API
+      </a>
+      <a class='fl-r'
+        href="https://github.com/DevHyperCoder/InSight-Mars-Weather-Visualiser">Want
+        to see the code? (GitHub)</a>
     </div>
     <div style="clear: both;" />
     <div id="copy">
-      <p><a href="https://github.com/DevHyperCoder">DevHyperCoder</a></p>
-      <small>Copyright (c) 2020 DevHyperCoder</small>
+      <a class='fl-l' href="https://github.com/DevHyperCoder">DevHyperCoder</a>
+      <small class='fl-r'>Copyright (c) 2020 DevHyperCoder</small>
     </div>
   </footer>
 </template>
