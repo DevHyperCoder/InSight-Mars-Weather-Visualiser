@@ -15,5 +15,9 @@ html,body{
 }
 
 body{
-    background-image: url('/images/mars.jpg');
+	background-color: black;
+	background-image: url('/images/mars.jpg');
+	background-repeat: no-repeat;
+	height: 100vh;font-family: 'Montserrat', sans-serif;
+
   }
