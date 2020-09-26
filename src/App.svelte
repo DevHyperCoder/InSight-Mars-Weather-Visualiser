@@ -10,9 +10,18 @@
   main {
     margin-top: 1rem;
   }
+  .container {
+    min-height: 100vh;
+  }
 </style>
 
 <main>
   <h1>Mars Weather</h1>
-  <Weather />
+  <div class="container">
+    <Weather />
+  </div>
+
+  <div class="container">
+    <About />
+  </div>
 </main>
